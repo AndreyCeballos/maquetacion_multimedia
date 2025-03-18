@@ -1,0 +1,45 @@
+@media (max-width: 468px) {
+
+  .contenedor_cabecera {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu ul.active {
+    display: flex;
+  }
+
+  .icono_menu {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+
+  .contenedor_video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .contenedor_chat {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_redes {
+    margin-top: 10px;
+  }
+}
